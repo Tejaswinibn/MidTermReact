@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+
+## WHE WHE Cash Register System
+
+The WHE WHE Cash Register System is a simple web application built using React.js. It allows users to select 5 numbers from a range of 1 to 20, choose different monetary values, and perform actions like clearing the selection, generating random numbers, and cashing out.
+
+### Features:
+- **Number Selection:** Users can select up to 5 numbers from a range of 1 to 20.
+- **Monetary Input:** Users can choose from different monetary values (1, 5, 10, 20).
+- **Action Buttons:** Various action buttons are provided, including clearing the selection, generating random numbers, and cashing out.
+- **Total Money Value Display:** The total value of selected numbers is displayed dynamically.
+- **Validation:** The "Cash" button is disabled until all 5 numbers are selected to prevent invalid cashing out.
+
+### Technologies Used:
+- **React.js:** The frontend of the application is built using React.js, providing a smooth and interactive user experience.
+- **CSS:** Custom styling is applied using CSS to enhance the visual appeal of the application.
+- **JavaScript:** JavaScript is used for handling user interactions and logic within the application.
+
+### Usage:
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and install dependencies using `npm install`.
+3. Run the application using `npm start`.
+4. Access the application in your web browser at `http://localhost:3000`.
+
+### Contribution:
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
