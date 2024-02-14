@@ -1,0 +1,140 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:yellowgreen;
+}
+
+h2 {
+  color: #3498db;
+}
+
+.header {
+  background-color: #ddb9be;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.left-container, .main-container, .right-container {
+  width: 30%;
+  padding: 50px;
+ 
+  margin: 0; /* Remove margins */
+  margin-right: 20px; /* Add margin-right for gap */
+}
+
+.right-container {
+  margin-right: 0; /* Remove margin-right for the last container */
+}
+.money-input-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.money-input-button button {
+  width: 70px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(145deg, #6d78df, #5563c1); /* Add gradient for a glassy effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add box shadow for a 3D effect */
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.money-input-button button:hover {
+  transform: translateY(-2px); /* Add a slight lift on hover for a 3D effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhance the box shadow on hover */
+}
+
+.money-input-button img {
+  width: 200px; /* Adjust image width */
+  margin-bottom: 50px; /* Add space below the image */
+}
+.main-container {
+  background-color:#40b9b9;
+  margin-top: 30px;
+  width:620px;
+  height: 300px;
+  border: 1px solid #ccc; /* Add border */
+  padding: 10 px; /* Adjust padding as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main-container button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color:wheat;
+  cursor: pointer;
+  transition: background-color 0.8s, border-color 0.3s;
+  border-radius: 25px;
+}
+
+.main-container button.selected {
+  background-color: #db3458;
+  color: #fff;
+  border-color: #3498db;
+}
+
+.number-input {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.selected-numbers-display {
+  margin-top: 10px;
+  padding: 45px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+/* New styles for selected numbers display */
+.selected-numbers-display .number-display-container {
+  margin-bottom: 50px;
+}
+
+/* Action buttons */
+.action-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Adjust the gap between buttons */
+}
+
+.action-button {
+  font-size: 16px;
+  padding: 20px 20px;
+  background-color: #2ecc71; 
+  color: #0a0000;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* Remove hover effect */
+.action-button:hover {
+  background-color: #2ecc71; /* Keep the default button color */
+  box-shadow: none; /* Remove box shadow */
+}
+
+/* Additional style to make buttons visible when active */
+.action-button:active {
+  background-color: #27ae60; /* Color change when button is clicked */
+}
